@@ -10,15 +10,12 @@
 <script>
 /* eslint-disable quote-props */
 
-import Vue from 'vue';
-import BootstrapVue from 'bootstrap-vue';
 import Navigation from './components/Navigation';
 
-Vue.use(BootstrapVue);
 export default {
   name: 'App',
   components: {
-    'Navigation': Navigation,
+    Navigation,
   },
 };
 
@@ -31,9 +28,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-}
-#app img{
-  margin-top: 10%;
 }
 .router-anim-enter-active {
   animation: coming 1s;
