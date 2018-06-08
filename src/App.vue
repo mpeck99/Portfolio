@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Navigation></Navigation>
+    <Navigation class="navigation"></Navigation>
     <transition name="router-anim" class="router-anim-enter-active">
       <router-view/>
     </transition>
@@ -54,4 +54,7 @@ export default {
     opacity: 1;
   }
 }
+  html, #app{
+    background-color: #F6EFEE;
+  }
 </style>

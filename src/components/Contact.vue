@@ -14,3 +14,8 @@ export default {
   },
 };
 </script>
+<style>
+  .navigation{
+  height: 100%;
+}
+</style>

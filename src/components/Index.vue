@@ -1,5 +1,22 @@
 <template>
     <div class="container">
+      <div class="fallingWords">
+        <span class="skill1">HTML</span>
+        <span class="skill2">CSS</span>
+        <span class="skill3">JAVASCRIPT</span>
+        <span class="skill1">PHP</span>
+        <span class="skill2">SQL</span>
+        <span class="skill3">GIT</span>
+        <span class="skill1">DEVELOPMENT</span>
+        <span class="skill2">VUEJS</span>
+        <span class="skill3">NODEJS</span>
+        <span class="skill1">REACTJS</span>
+        <span class="skill2">AGILE</span>
+        <span class="skill3">MONGODB</span>
+        <span class="skill1">REACTJS</span>
+        <span class="skill2">AGILE</span>
+        <span class="skill3">BOOTSTRAP</span>
+      </div>
     <div class="logo">
       <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-27f71.appspot.com/o/portfolio_logo.png?alt=media&token=d999092c-1b4c-435f-a19a-0977781ce147" class="img-fluid" >
     </div>
@@ -55,5 +72,73 @@ export default {
   @keyframes Float {
     0% {margin-left: 100%;}
     100% {margin-left: -1000px;}
+  }
+  .fallingWords{
+    position: absolute;
+  }
+  .fallingWords span {
+    display: inline-block;
+    height: 80px;
+    z-index: 100;
+    margin: 50px;
+    background:url('../assets/portfolio_logo.png');
+    -webkit-animation: fallingWords 8s infinite linear;
+    -moz-animation: fallingWords 8s infinite linear;
+    animation-delay: -10s;
+  }
+  .fallingWords span:nth-child(5n+5) {
+    -webkit-animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    animation-fill-mode: both;
+  }
+  .fallingWords span:nth-child(3n+2) {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-fill-mode: both;
+  }
+  .fallingWords span:nth-child(2n+5) {
+    -webkit-animation-delay: 2.5s;
+    -moz-animation-delay: 2.5s;
+    animation-fill-mode: both;
+
+  }
+  @-webkit-keyframes fallingWords {
+    0% {
+      opacity:0;
+      -webkit-transform: translate(-100px, 0px) rotateZ(0deg);
+    }
+    25% {
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+      -webkit-transform: translate(-100px, 600px) rotateZ(-270deg);
+    }
+    100% {
+      opacity: 0;
+      -webkit-transform: translate(-75px, 800px) rotateZ(-360deg);
+    }
+  }
+  .skill1, .skill2, .skill3{
+    font-family: Monaco,'sans-serif';
+  }
+  .skill1{
+  color:deepskyblue;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .skill2{
+  color:rebeccapurple;
+    font-size: 18px;
+  }
+  .skill3{
+    color: chartreuse;
+    font-size: 14px;
+  }
+  body {
+    overflow: hidden !important;
+  }
+  html{
+    overflow: hidden;
   }
 </style>
