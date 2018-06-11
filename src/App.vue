@@ -10,7 +10,7 @@
 <script>
 /* eslint-disable quote-props */
 
-import Navigation from './components/Navigation';
+import Navigation from './components/Partials/Navigation';
 
 export default {
   name: 'App',
