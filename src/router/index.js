@@ -14,6 +14,16 @@ export default new Router({
       path: '/',
       name: 'Home',
       component: Index,
+      metaTags: [
+        {
+          name: 'Home',
+          content: 'Morgan Peck Portfolio',
+        },
+        {
+          property: 'og:Home',
+          content: 'Morgan Peck Portfolio',
+        },
+      ],
     },
     {
       path: '/about',

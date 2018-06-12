@@ -4,18 +4,23 @@
         <span class="skill1">HTML</span>
         <span class="skill2">CSS</span>
         <span class="skill3">JAVASCRIPT</span>
-        <span class="skill1">PHP</span>
-        <span class="skill2">SQL</span>
-        <span class="skill3">GIT</span>
-        <span class="skill1">DEVELOPMENT</span>
-        <span class="skill2">VUEJS</span>
-        <span class="skill3">NODEJS</span>
+        <span class="skill4">PHP</span>
+        <span class="skill1">SQL</span>
+        <span class="skill2">GIT</span>
+        <span class="skill3">DEVELOPMENT</span>
+        <span class="skill4">VUEJS</span>
+        <span class="skill1">NODEJS</span>
+        <span class="skill2">REACTJS</span>
+        <span class="skill3">AGILE</span>
+        <span class="skill4">MONGODB</span>
         <span class="skill1">REACTJS</span>
         <span class="skill2">AGILE</span>
-        <span class="skill3">MONGODB</span>
-        <span class="skill1">REACTJS</span>
-        <span class="skill2">AGILE</span>
-        <span class="skill3">BOOTSTRAP</span>
+        <span class="skill3">MEAN</span>
+        <span class="skill4">WIREFRAME</span>
+        <span class="skill1">FRONTEND</span>
+        <span class="skill2">BACKEND</span>
+        <span class="skill3">JQUERY</span>
+        <span class="skill4">BOOTSTRAP</span>
       </div>
     <div class="logo">
       <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-27f71.appspot.com/o/portfolio_logo.png?alt=media&token=d999092c-1b4c-435f-a19a-0977781ce147" class="img-fluid" >
@@ -102,7 +107,7 @@ export default {
     animation-fill-mode: both;
 
   }
-  @-webkit-keyframes fallingWords {
+  @keyframes fallingWords {
     0% {
       opacity:0;
       -webkit-transform: translate(-100px, 0px) rotateZ(0deg);
@@ -119,7 +124,7 @@ export default {
       -webkit-transform: translate(-75px, 800px) rotateZ(-360deg);
     }
   }
-  .skill1, .skill2, .skill3{
+  span{
     font-family: Monaco,'sans-serif';
   }
   .skill1{
@@ -132,8 +137,12 @@ export default {
     font-size: 18px;
   }
   .skill3{
-    color: chartreuse;
+    color: lawngreen;
     font-size: 14px;
+  }
+  .skill4{
+    color:hotpink;
+    font-size:20px;
   }
   body {
     overflow: hidden !important;
