@@ -21,5 +21,6 @@ nav a{
 .active{
   color: rebeccapurple;
   font-weight: bold;
+  text-shadow: 2px 2px hotpink;
 }
 </style>

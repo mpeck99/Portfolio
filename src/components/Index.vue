@@ -143,6 +143,7 @@ export default {
   .skill4{
     color:hotpink;
     font-size:20px;
+    font-style: italic;
   }
   body {
     overflow: hidden !important;

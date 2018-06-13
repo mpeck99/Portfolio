@@ -82,6 +82,8 @@ export default {
      background-color: rebeccapurple;
      color: deepskyblue;
      box-shadow: 5px 5px 5px grey;
+     border-radius: 5%;
+     font-weight:bolder;
    }
   label{
     float: left;
