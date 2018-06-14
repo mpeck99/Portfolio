@@ -5,11 +5,13 @@
     <ContactForm></ContactForm>
     <div class="social-media">
       <hr>
-      <i class="fab fa-facebook fa-3x"></i>
-      <i class="fab fa-twitter-square fa-3x"></i>
-      <i class="fab fa-github-square fa-3x"></i>
-      <i class="fab fa-linkedin fa-3x"></i>
-    </div>
+      <a href="https://www.facebook.com/MorganPeck99">
+        <i class="fab fa-facebook fa-3x"></i>
+    </a>
+      <a href="https://twitter.com/MorganPeck99"><i class="fab fa-twitter-square fa-3x"></i></a>
+      <a href="https://github.com/mpeck99"><i class="fab fa-github-square fa-3x"></i></a>
+      <a href="https://www.linkedin.com/in/morganpeck99/"><i class="fab fa-linkedin fa-3x"></i></a>
+  </div>
   </div>
 </template>
 
