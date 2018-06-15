@@ -7,7 +7,7 @@ import Portfolio from '@/components/Work';
 import AnimalShelter from '@/components/Projects/AnimalShelter';
 import MusicSearch from '@/components/Projects/MusicSearch';
 import WD6 from '@/components/Projects/WD6';
-import ImgGallery from '@/components/Projects/ResponsiveImageGallery';
+import ImgGallery from '@/components/Projects/Gallery';
 
 Vue.use(Router);
 

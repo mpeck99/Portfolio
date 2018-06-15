@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <router-link to="/portfolio" class="back">Back</router-link>
-    <h1>Ward Animal Shelter</h1>
+    <h1>Responsive Gallery</h1>
   </div>
 </template>
 <style scoped>
