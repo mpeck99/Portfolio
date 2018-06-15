@@ -10,7 +10,7 @@
         <li><i class="fas fa-map-marker fa-3x"> Little Rock, Arkansas</i></li>
       </ul>
     </div>
-  <form class="contact-form" method="POST" action="http://127.0.0.1:3000/email" >
+  <form class="contact-form" method="POST" action="http://localhost:3000/email">
     <div class="form-group">
     <label for="fullname">Full Name *</label>
     <input type="name" class="form-control" id="fullname"

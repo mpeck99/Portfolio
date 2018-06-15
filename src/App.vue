@@ -55,6 +55,6 @@ export default {
   }
 }
   html, #app{
-    background-color: #F6EFEE;
+    background-color: #D9D9D7;
   }
 </style>
