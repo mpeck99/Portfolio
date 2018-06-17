@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <div class="projects col-lg-6 col-md-12">
         <router-link to="/portfolio/Ward-Animal-Shelter">
@@ -53,6 +53,6 @@ export default {
   }
   .projects:hover{
     transform: scale(.95);
-    box-shadow: 5px 5px 5px grey;
+    box-shadow: 5px 5px 5px 5px grey;
   }
 </style>

@@ -42,7 +42,7 @@ export default {
     animation-name: Spin;
     animation-duration: 2s;
     animation-timing-function: ease;
-    color: lawngreen;
+    color: rebeccapurple;
   }
   hr{
       margin: 10px;

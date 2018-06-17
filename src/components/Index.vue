@@ -90,6 +90,7 @@ export default {
     -webkit-animation: fallingWords 8s infinite linear;
     -moz-animation: fallingWords 8s infinite linear;
     animation-delay: -10s;
+    overflow-y: hidden;
   }
   .fallingWords span:nth-child(5n+5) {
     -webkit-animation-delay: 0s;
@@ -111,17 +112,21 @@ export default {
     0% {
       opacity:0;
       -webkit-transform: translate(-100px, 0px) rotateZ(0deg);
+      overflow-y: hidden;
     }
     25% {
       opacity: 1;
+      overflow-y: hidden;
     }
     75% {
       opacity: 1;
       -webkit-transform: translate(-100px, 600px) rotateZ(-270deg);
+      overflow-y: hidden;
     }
     100% {
       opacity: 0;
       -webkit-transform: translate(-75px, 800px) rotateZ(-360deg);
+      overflow-y: hidden;
     }
   }
   span{
@@ -145,10 +150,7 @@ export default {
     font-size:20px;
     font-style: italic;
   }
-  body {
-    overflow: hidden !important;
-  }
-  html{
-    overflow: hidden;
+  body, html{
+    overflow-y: hidden;
   }
 </style>

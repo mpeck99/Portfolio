@@ -73,17 +73,17 @@ export default {
   .send{
     padding: 10px;
     width: 150px;
-    background-color: deepskyblue;
-    color: rebeccapurple;
+    background-color: lawngreen;
+    color: deepskyblue;
     font-size: 22px;
     margin: 10px;
+    box-shadow: 5px 5px 5px grey;
+    font-weight:bolder;
   }
    .send:hover {
-     background-color: rebeccapurple;
-     color: deepskyblue;
-     box-shadow: 5px 5px 5px grey;
+     background-color: deepskyblue;
+     color: lawngreen;
      border-radius: 5%;
-     font-weight:bolder;
    }
   label{
     float: left;
