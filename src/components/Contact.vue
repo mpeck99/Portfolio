@@ -2,6 +2,9 @@
   <div class="container">
     <h1>Contact</h1>
     <hr>
+    <p v-if=this.$route.query.success class="success">
+      Your Message Was Sent! I will contact you back as soon as I can!
+    </p>
     <ContactForm></ContactForm>
     <div class="social-media">
       <hr>
@@ -46,6 +49,16 @@ export default {
   }
   hr{
       margin: 10px;
+  }
+  .success{
+    background-color: limegreen;
+    opacity:.75;
+    margin: 5px;
+    padding:5px;
+    color: black;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
   }
   @keyframes Spin {
      from {transform:rotate(0deg)}

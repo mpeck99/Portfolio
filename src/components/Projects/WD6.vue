@@ -13,6 +13,7 @@
     float: left;
     color: rebeccapurple;
     justify-content: center;
+    text-shadow: 2px 2px hotpink !important;
   }
   a{
     text-decoration: none;

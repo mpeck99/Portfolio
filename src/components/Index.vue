@@ -73,6 +73,7 @@ export default {
     opacity: 5;
     position: absolute;
     z-index: 100;
+    overflow-y: hidden;
   }
   @keyframes Float {
     0% {margin-left: 100%;}
@@ -120,12 +121,12 @@ export default {
     }
     75% {
       opacity: 1;
-      -webkit-transform: translate(-100px, 600px) rotateZ(-270deg);
+      -webkit-transform: translate(-100px, 200px) rotateZ(-270deg);
       overflow-y: hidden;
     }
     100% {
       opacity: 0;
-      -webkit-transform: translate(-75px, 800px) rotateZ(-360deg);
+      -webkit-transform: translate(-75px, 300px) rotateZ(-360deg);
       overflow-y: hidden;
     }
   }
@@ -133,24 +134,31 @@ export default {
     font-family: Monaco,'sans-serif';
   }
   .skill1{
-  color:deepskyblue;
+    color:deepskyblue;
     font-size: 20px;
     font-weight: bold;
+    font-family: Montserrat, 'sans-serif';
+
   }
   .skill2{
-  color:rebeccapurple;
+    color:rebeccapurple;
     font-size: 18px;
+    font-family: Roboto, 'serif';
   }
   .skill3{
-    color: lawngreen;
+    color: limegreen;
     font-size: 14px;
+    font-style: italic;
+    font-family: Consolas, 'monospace';
   }
   .skill4{
     color:hotpink;
     font-size:20px;
     font-style: italic;
+    font-family: "American Typewriter", 'monospace';
   }
   body, html{
-    overflow-y: hidden;
+    position: static;
+    overflow-y:auto;
   }
 </style>

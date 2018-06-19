@@ -17,6 +17,7 @@ nav a{
   font-size: 28px;
   text-decoration: none;
   color: hotpink;
+  font-family: Montserrat, sans-serif;
 }
 .active{
   color: rebeccapurple;

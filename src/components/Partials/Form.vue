@@ -10,21 +10,22 @@
         <li><i class="fas fa-map-marker fa-3x"> Little Rock, Arkansas</i></li>
       </ul>
     </div>
-  <form class="contact-form" method="POST" action="http://localhost:3000/email">
+  <form class="contact-form" action="https://liveformhq.com/form/31e5095f-a3ef-48ff-b583-5c40508662af" method="POST" accept-charset="utf-8">
+    <input type="hidden" value="http://127.0.0.1:8080/contact?success=sent" name="_redirect">
     <div class="form-group">
-    <label for="fullname">Full Name *</label>
-    <input type="name" class="form-control" id="fullname"
-           placeholder="Your Name" required name="name" v-model="name">
+    <label for="name">Full Name *</label>
+    <input type="text" class="form-control" id="name"
+           placeholder="Your Name"  name="name" v-model="name" required>
   </div>
       <div class="form-group">
         <label for="subject">Subject *</label>
-        <input type="name" class="form-control" id="subject"
-               placeholder="Subject" required namk="subject" v-model="subject">
+        <input type="text" class="form-control" id="subject"
+               placeholder="Subject"  name="subject" v-model="subject" required>
       </div>
     <div class="form-group">
       <label for="email">Email address *</label>
       <input type="email" class="form-control" id="email"
-           placeholder="name@example.com" required name="email" v-model="email">
+           placeholder="name@example.com" name="email" v-model="email"  required >
     </div>
     <div class="form-group">
       <label for="message">Leave a message</label>
@@ -76,9 +77,9 @@ export default {
     background-color: lawngreen;
     color: deepskyblue;
     font-size: 22px;
-    margin: 10px;
     box-shadow: 5px 5px 5px grey;
     font-weight:bolder;
+    margin: 10px;
   }
    .send:hover {
      background-color: deepskyblue;
@@ -101,7 +102,6 @@ export default {
   }
   @media only screen and (max-width : 990px) {
     .contact-form{
-      float: none;
       width: 100%;
     }
     .contact-info{
