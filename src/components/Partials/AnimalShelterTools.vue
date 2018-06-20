@@ -25,10 +25,10 @@
 </script>
 <style>
   .tools{
-    display: flex;
+    display: inline-flex;
     align-items: center;
   }
-  .firebase{
+  .firebase, .react{
     width: 80px;
   }
   .tools h3{

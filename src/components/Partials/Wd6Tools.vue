@@ -28,7 +28,7 @@
     width: 80px;
   }
   .tools{
-    display: flex;
+    display: inline-flex;
     align-items: center;
   }
   .tools img{

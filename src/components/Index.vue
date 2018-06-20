@@ -73,7 +73,6 @@ export default {
     opacity: 5;
     position: absolute;
     z-index: 100;
-    overflow-y: hidden;
   }
   @keyframes Float {
     0% {margin-left: 100%;}
@@ -82,63 +81,76 @@ export default {
   .fallingWords{
     position: absolute;
   }
+
   .fallingWords span {
     display: inline-block;
     height: 80px;
     z-index: 100;
     margin: 50px;
+    width:auto;
     background:url('../assets/portfolio_logo.png');
     -webkit-animation: fallingWords 8s infinite linear;
     -moz-animation: fallingWords 8s infinite linear;
     animation-delay: -10s;
-    overflow-y: hidden;
+    overflow-y: hidden !important;
   }
   .fallingWords span:nth-child(5n+5) {
     -webkit-animation-delay: 0s;
     -moz-animation-delay: 0s;
     animation-fill-mode: both;
+    overflow-y: hidden;
   }
   .fallingWords span:nth-child(3n+2) {
     -webkit-animation-delay: 1s;
     -moz-animation-delay: 1s;
     animation-fill-mode: both;
+    overflow-y: hidden;
   }
   .fallingWords span:nth-child(2n+5) {
     -webkit-animation-delay: 2.5s;
     -moz-animation-delay: 2.5s;
     animation-fill-mode: both;
-
+    overflow-y: hidden;
   }
   @keyframes fallingWords {
     0% {
       opacity:0;
-      -webkit-transform: translate(-100px, 0px) rotateZ(0deg);
-      -moz-transform: translate(-100px, 0px) rotateZ(0deg);
-      -ms-transform: translate(-100px, 0px) rotateZ(0deg);
-      -o-transform: translate(-100px, 0px) rotateZ(0deg);
-      transform: translate(-100px, 0px) rotateZ(0deg);
+      -webkit-transform: translate(-100px, 0px);
+      -moz-transform: translate(-100px, 0px);
+      -ms-transform: translate(-100px, 0px);
+      -o-transform: translate(-100px, 0px);
+      transform: translate(-100px, 0px);
       overflow-y: hidden;
     }
     25% {
       opacity: 1;
       overflow-y: hidden;
     }
-    75% {
+    50% {
       opacity: 1;
-      -webkit-transform: translate(-100px, 200px) rotateZ(-270deg);
-      -moz-transform: translate(-100px, 200px) rotateZ(-270deg);
-      -ms-transform: translate(-100px, 200px) rotateZ(-270deg);
-      -o-transform: translate(-100px, 200px) rotateZ(-270deg);
-      transform: translate(-100px, 200px) rotateZ(-270deg);
+      -webkit-transform: translate(-100px, 200px);
+      -moz-transform: translate(-100px, 200px);
+      -ms-transform: translate(-100px, 200px);
+      -o-transform: translate(-100px, 200px);
+      transform: translate(-100px, 200px);
+      overflow-y: hidden;
+    }
+    75%{
+      opacity: 1;
+      -webkit-transform: translate(-90px, 300px);
+      -moz-transform: translate(-90px, 300px);
+      -ms-transform: translate(-90px, 300px);
+      -o-transform: translate(-90px, 300px);
+      transform: translate(-90px, 300px);
       overflow-y: hidden;
     }
     100% {
       opacity: 0;
-      -webkit-transform:translate(-75px, 300px) rotateZ(-360deg) ;
-      -moz-transform: translate(-75px, 300px) rotateZ(-360deg);
-      -ms-transform: translate(-75px, 300px) rotateZ(-360deg);
-      -o-transform: translate(-75px, 300px) rotateZ(-360deg);
-      transform: translate(-75px, 300px) rotateZ(-360deg);
+      -webkit-transform:translate(-75px, 400px);
+      -moz-transform: translate(-75px, 400px);
+      -ms-transform: translate(-75px, 400px);
+      -o-transform: translate(-75px, 400px);
+      transform: translate(-75px, 400px);
       overflow-y: hidden;
     }
   }
@@ -169,8 +181,8 @@ export default {
     font-style: italic;
     font-family: "American Typewriter", 'monospace';
   }
-  body, html{
+  body, html, #app{
     position: static;
-    overflow-y:auto;
+    overflow-y:hidden !important;
   }
 </style>
