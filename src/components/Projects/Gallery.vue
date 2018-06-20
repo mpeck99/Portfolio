@@ -15,10 +15,20 @@
     justify-content: center;
     text-shadow: 2px 2px hotpink !important;
   }
+  .back:hover{
+    -webkit-transform: translate(-4px,0);
+    -moz-transform: translate(-4px,0);
+    -ms-transform: translate(-4px,0);
+    -o-transform: translate(-4px,0);
+    transform: translate(-4px,0);
+  }
   a{
     text-decoration: none;
-    color: rebeccapurple;
     font-size:22px;
     margin: 0;
+    color: deepskyblue;
+    float: left;
+    justify-content: center;
+    text-shadow: 2px 2px rebeccapurple !important;
   }
 </style>

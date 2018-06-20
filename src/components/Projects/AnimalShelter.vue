@@ -47,7 +47,7 @@ export default {
 <style scoped>
   h1, h3, .back{
     font-family: Montserrat,sans-serif;
-    margin: 20px auto;
+    margin: 25px auto;
   }
   .about img{
     margin: 25px 0;
@@ -66,17 +66,21 @@ export default {
   h3, p{
   float: left;
   }
-  .back{
-    float: left;
-    color: rebeccapurple;
-    justify-content: center;
-    text-shadow: 2px 2px hotpink !important;
+  .back:hover{
+    -webkit-transform: translate(-4px,0);
+    -moz-transform: translate(-4px,0);
+    -ms-transform: translate(-4px,0);
+    -o-transform: translate(-4px,0);
+    transform: translate(-4px,0);
   }
   a{
     text-decoration: none;
-    color: rebeccapurple;
+    color: deepskyblue;
     font-size:22px;
     margin: 0;
+    float: left;
+    justify-content: center;
+    text-shadow: 2px 2px rebeccapurple !important;
   }
   .about .col-4{
     margin: 0;

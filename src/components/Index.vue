@@ -113,6 +113,10 @@ export default {
     0% {
       opacity:0;
       -webkit-transform: translate(-100px, 0px) rotateZ(0deg);
+      -moz-transform: translate(-100px, 0px) rotateZ(0deg);
+      -ms-transform: translate(-100px, 0px) rotateZ(0deg);
+      -o-transform: translate(-100px, 0px) rotateZ(0deg);
+      transform: translate(-100px, 0px) rotateZ(0deg);
       overflow-y: hidden;
     }
     25% {
@@ -122,11 +126,19 @@ export default {
     75% {
       opacity: 1;
       -webkit-transform: translate(-100px, 200px) rotateZ(-270deg);
+      -moz-transform: translate(-100px, 200px) rotateZ(-270deg);
+      -ms-transform: translate(-100px, 200px) rotateZ(-270deg);
+      -o-transform: translate(-100px, 200px) rotateZ(-270deg);
+      transform: translate(-100px, 200px) rotateZ(-270deg);
       overflow-y: hidden;
     }
     100% {
       opacity: 0;
-      -webkit-transform: translate(-75px, 300px) rotateZ(-360deg);
+      -webkit-transform:translate(-75px, 300px) rotateZ(-360deg) ;
+      -moz-transform: translate(-75px, 300px) rotateZ(-360deg);
+      -ms-transform: translate(-75px, 300px) rotateZ(-360deg);
+      -o-transform: translate(-75px, 300px) rotateZ(-360deg);
+      transform: translate(-75px, 300px) rotateZ(-360deg);
       overflow-y: hidden;
     }
   }

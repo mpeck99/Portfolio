@@ -13,11 +13,19 @@ nav{
   margin: 10px;
 }
 nav a{
-  margin: 25px;
+  margin: 10px;
   font-size: 28px;
   text-decoration: none;
   color: hotpink;
   font-family: Montserrat, sans-serif;
+  display: inline-block;
+}
+nav a:hover{
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+  transform: translateY(-10px);
 }
 .active{
   color: rebeccapurple;

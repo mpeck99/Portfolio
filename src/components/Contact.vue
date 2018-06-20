@@ -39,7 +39,8 @@ export default {
   }
   .social-media i{
     margin: 25px;
-    color: hotpink;
+    color: rebeccapurple;
+    text-shadow: 2px 2px deepskyblue;
   }
   .social-media i:hover{
     animation-name: Spin;
