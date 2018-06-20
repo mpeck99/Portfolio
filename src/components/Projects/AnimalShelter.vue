@@ -27,7 +27,17 @@
         made from the MERN Stack focusing on Mongodb, Express, React, and NodeJS. This was my first
         real project combining all of these items together. I decided to make an animal shelters web
         page because I love animals and there is a shelter locally that currently has no site for
-        anyone to view their adoptable animals or contact information. </p>
+        anyone to view their adoptable animals or contact information.
+      This Project was really fun to create because I had complete freedom
+      on what to create and how I should go about creating it. I had
+      fun learning to use Firebase to hold images and its hosting
+        possibilities as well as using MLab to
+        store my database objects. Overall I am
+        proud of this project I have created only
+        things I want to go back and change is my color scheme and work
+        on the jumbotron on the home page making it not look as muddy.
+      Once I tweak these items I want to go to the local animal
+        shelter and see if they would like to use it.  </p>
     </div>
     <h3>Tools Used</h3>
     <Tools></Tools>
@@ -80,9 +90,9 @@ export default {
     margin: 0;
     float: left;
     justify-content: center;
-    text-shadow: 2px 2px rebeccapurple !important;
+    text-shadow: 2px 2px rebeccapurple;
   }
-  .about .col-4{
+  .about{
     margin: 0;
     padding: 0;
   }

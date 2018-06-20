@@ -24,6 +24,10 @@
 <script>
 </script>
 <style>
+  .tools{
+    display: flex;
+    align-items: center;
+  }
   .firebase{
     width: 80px;
   }
