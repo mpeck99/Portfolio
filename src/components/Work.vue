@@ -55,4 +55,12 @@ export default {
     transform: scale(.95);
     box-shadow: 5px 5px 5px 5px grey;
   }
+  @media only screen and (max-device-width: 480px) {
+   a img{
+      height: auto !important;
+    }
+    h1, h3{
+      font-size: 20px;
+    }
+  }
 </style>

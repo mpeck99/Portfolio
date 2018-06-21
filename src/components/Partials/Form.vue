@@ -1,13 +1,13 @@
 <template>
-  <div>
+  <div class="container">
     <div class="contact-info">
       <h3>Looking For A New <strong>Developer?</strong></h3>
       <h3>Need A <strong>Website?</strong></h3>
       <p>Fill out the form or contact me with the following information!</p>
       <ul>
-        <li><i class="fas fa-phone-square fa-3x"> 316-882-4474</i></li>
-        <li><i class="fas fa-envelope-square fa-3x"> mopeck99@gmail.com</i></li>
-        <li><i class="fas fa-map-marker fa-3x"> Little Rock, Arkansas</i></li>
+        <li><i class="fas fa-phone-square fa-3x"> <p>316-882-4474</p></i></li>
+        <li><i class="fas fa-envelope-square fa-3x"><p>mopeck99@gmail.com</p></i></li>
+        <li><i class="fas fa-map-marker fa-3x"><p>Little Rock, Arkansas</p></i></li>
       </ul>
     </div>
   <form class="contact-form" action="https://liveformhq.com/form/31e5095f-a3ef-48ff-b583-5c40508662af" method="POST" accept-charset="utf-8">
@@ -90,15 +90,20 @@ export default {
     float: left;
     color: rebeccapurple;
   }
-  .contact-info ul{
+  .contact-info ul {
     list-style: none;
-    margin: auto;
     width: 450px;
+    display: flex;
+    flex-direction:column;
   }
-  .contact-info ul li{
+  .contact-info ul i{
     float: left;
+    margin:20px;
+  }
+  .contact-info ul li p{
+    float: right;
     margin: 10px;
-    font-size: 10px;
+    font-size:20px;
   }
   @media only screen and (max-width : 990px) {
     .contact-form{
@@ -106,6 +111,20 @@ export default {
     }
     .contact-info{
       float: none;
+    }
+  }
+  @media only screen and (max-device-width: 480px) {
+    .contact-info ul li{
+      width: auto;
+      font-size: 12px;
+      margin: 0;
+    }
+    .contact-info ul{
+      float: left;
+      padding: 0;
+    }
+    h3{
+      font-size:18px;
     }
   }
 </style>

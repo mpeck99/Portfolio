@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <nav>
       <router-link to="/" exact-active-class="active">Home</router-link>
       <router-link to="/portfolio" active-class="active">Portfolio</router-link>
@@ -31,5 +31,14 @@ nav a:hover{
   color: rebeccapurple;
   font-weight: bold;
   text-shadow: 2px 2px hotpink !important;
+}
+@media only screen and (max-device-width: 480px) {
+  nav a{
+    font-size: 16px;
+    margin: 5px;
+  }
+  nav{
+    margin: 0;
+  }
 }
 </style>

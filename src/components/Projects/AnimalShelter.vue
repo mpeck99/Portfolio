@@ -9,13 +9,13 @@
     <h1>Ward Animal Shelter</h1>
     <div class="about center">
       <div class="row">
-        <div class="col-lg-4 col-md-1 col-sm-1">
+        <div class="col-lg-4 col-md-12 col-sm-12">
           <img class="img-fluid" src="https://firebasestorage.googleapis.com/v0/b/portfolio-27f71.appspot.com/o/Screen%20Shot%202018-06-18%20at%209.57.40%20PM.png?alt=media&token=1c634cc1-738b-4d89-8b84-5de2cb9611e1">
         </div>
-        <div class="col-lg-4 col-md-1 col-sm-1 middle">
+        <div class="col-lg-4 col-md-12 col-sm-12 middle">
           <img class="img-fluid" src="https://firebasestorage.googleapis.com/v0/b/portfolio-27f71.appspot.com/o/Screen%20Shot%202018-06-06%20at%209.14.18%20PM.png?alt=media&token=7a975afa-9111-4502-a4a9-eea2afe99bd4" alt="Ward Animal Shelter">
         </div>
-        <div class="col-lg-4 col-m2-1 col-sm-1">
+        <div class="col-lg-4 col-md-12 col-sm-12">
           <img class="img-fluid" src="https://firebasestorage.googleapis.com/v0/b/portfolio-27f71.appspot.com/o/Screen%20Shot%202018-06-18%20at%209.53.06%20PM.png?alt=media&token=7916b67e-55a7-4879-b602-9a573838f0a2" alt="Ward Animal Shelter">
         </div>
       </div>
@@ -99,5 +99,17 @@ export default {
   .middle{
     z-index: 1;
     transform: scale(1.5);
+  }
+  @media only screen and (max-device-width: 480px) {
+    .about img{
+      width: 100% !important;
+      margin: 5px;
+    }
+    .middle{
+      transform: scale(1);
+    }
+    h1, h3{
+      font-size: 20px;
+    }
   }
 </style>

@@ -104,4 +104,16 @@ export default {
     z-index: 1;
     transform: scale(1.5);
   }
+  @media only screen and (max-device-width: 480px) {
+    .about img{
+      width: 100% !important;
+      margin: 5px;
+    }
+    .middle{
+      transform: scale(1);
+    }
+    h1, h3{
+      font-size: 20px;
+    }
+  }
 </style>
