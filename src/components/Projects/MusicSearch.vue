@@ -6,45 +6,39 @@
         <i class="fas fa-angle-double-left fa-2x"></i>
       </router-link>
     </div>
-    <h1>Ward Animal Shelter</h1>
+    <h1>Music Search</h1>
     <div class="about center">
       <div class="row">
         <div class="col-lg-4 col-md-1 col-sm-1">
-          <img class="img-fluid" src="https://firebasestorage.googleapis.com/v0/b/portfolio-27f71.appspot.com/o/Screen%20Shot%202018-06-18%20at%209.57.40%20PM.png?alt=media&token=1c634cc1-738b-4d89-8b84-5de2cb9611e1">
+          <img class="img-fluid" src="https://firebasestorage.googleapis.com/v0/b/portfolio-27f71.appspot.com/o/Screen%20Shot%202018-06-19%20at%207.58.59%20PM.png?alt=media&token=7445035e-2569-4ae6-a4e7-c28be8c2b89e">
         </div>
         <div class="col-lg-4 col-md-1 col-sm-1 middle">
-          <img class="img-fluid" src="https://firebasestorage.googleapis.com/v0/b/portfolio-27f71.appspot.com/o/Screen%20Shot%202018-06-06%20at%209.14.18%20PM.png?alt=media&token=7a975afa-9111-4502-a4a9-eea2afe99bd4" alt="Ward Animal Shelter">
+          <img class="img-fluid" src="https://firebasestorage.googleapis.com/v0/b/portfolio-27f71.appspot.com/o/Screen%20Shot%202018-06-06%20at%209.17.54%20PM.png?alt=media&token=2f17d36f-393e-4e7d-9779-857d97f61f4f" alt="Music Search">
         </div>
         <div class="col-lg-4 col-m2-1 col-sm-1">
-          <img class="img-fluid" src="https://firebasestorage.googleapis.com/v0/b/portfolio-27f71.appspot.com/o/Screen%20Shot%202018-06-18%20at%209.53.06%20PM.png?alt=media&token=7916b67e-55a7-4879-b602-9a573838f0a2" alt="Ward Animal Shelter">
+          <img class="img-fluid" src="https://firebasestorage.googleapis.com/v0/b/portfolio-27f71.appspot.com/o/Screen%20Shot%202018-06-19%20at%207.58.02%20PM.png?alt=media&token=d41b2b9c-71e9-4cb2-8d62-c38692ced069" alt="Music Search">
         </div>
       </div>
       <h3>About this Project</h3>
       <p>
-        This project is a practice site for a local animal shelter created for a Project & Portfolio
-        course at Full Sail University. The purpose of the project is to show my skills working with
-        front and backend frameworks to create a site with data to display to the user. This site is
-        made from the MERN Stack focusing on Mongodb, Express, React, and NodeJS. This was my first
-        real project combining all of these items together. I decided to make an animal shelters web
-        page because I love animals and there is a shelter locally that currently has no site for
-        anyone to view their adoptable animals or contact information.
-        This Project was really fun to create because I had complete freedom
-        on what to create and how I should go about creating it. I had
-        fun learning to use Firebase to hold images and its hosting
-        possibilities as well as using MLab to
-        store my database objects. Overall I am
-        proud of this project I have created only
-        things I want to go back and change is my color scheme and work
-        on the jumbotron on the home page making it not look as muddy.
-        Once I tweak these items I want to go to the local animal
-        shelter and see if they would like to use it.  </p>
+        For this project I was to use a third party api and create an application that
+        allows the user to search for data. After they search for data it will be displayed
+        back to them. I also have it loading the most popular tracks, albums and artists
+        when the page is fist loaded. I used the LastFM api to pull data in and display it
+        to the user. This project was fun to work with because I was able to learn how to
+        pull data in based off of the users input and output a list of songs, artists and
+        albums. There is also an option for the users to add their favorite songs to a playlist
+        this is stored locally within the local storage. I did this project a while back and
+        have learned some things since. I would like to go back and tweak the animations so
+        that they work a little more smoothly.
+      </p>
     </div>
     <h3>Tools Used</h3>
     <Tools></Tools>
   </div>
 </template>
 <script>
-import Tools from '../Partials/AnimalShelterTools';
+import Tools from '../Partials/MusicSearch';
 
 export default {
   name: 'AnimalShelter',
