@@ -31,6 +31,10 @@ export default {
       msg: 'My Contact Page',
     };
   },
+  metaInfo: {
+    title: 'Contact',
+    titleTemplate: '%s - Me Your Web Developer Morgan Peck',
+  },
 };
 </script>
 <style>

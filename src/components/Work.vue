@@ -33,6 +33,10 @@ export default {
       msg: 'My Portfolio Page',
     };
   },
+  metaInfo: {
+    title: 'Portfolio',
+    titleTemplate: '%s - All of Morgan Pecks Work',
+  },
 };
 </script>
 <style scoped>

@@ -44,6 +44,15 @@ export default {
       msg: 'Your Web Developer',
     };
   },
+  metaInfo: {
+    title: 'Home',
+    titleTemplate: '%s - Morgan Peck!',
+  },
+  meta: [
+    { charset: 'utf-8' },
+    { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+    { name: 'description', content: 'Your Web Developer -- Morgan Peck' },
+  ],
 };
 </script>
 
