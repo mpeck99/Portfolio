@@ -11,7 +11,7 @@
       </ul>
     </div>
   <form class="contact-form" action="https://liveformhq.com/form/31e5095f-a3ef-48ff-b583-5c40508662af" method="POST" accept-charset="utf-8">
-    <input type="hidden" value="http://127.0.0.1:8080/contact?success=sent" name="_redirect">
+    <input type="hidden" value="http://www.morganpeck.com/contact?success=sent" name="_redirect">
     <div class="form-group">
     <label for="name">Full Name *</label>
     <input type="text" class="form-control" id="name"
