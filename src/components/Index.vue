@@ -26,6 +26,13 @@
       <img src="https://firebasestorage.googleapis.com/v0/b/portfolio-27f71.appspot.com/o/portfolio_logo.png?alt=media&token=d999092c-1b4c-435f-a19a-0977781ce147" class="img-fluid" >
     </div>
     <h1>{{ msg }}</h1>
+      <footer>
+        <div class="container">
+          <p>
+            Designed and Built By Morgan Peck
+          </p>
+        </div>
+      </footer>
   </div>
 </template>
 
